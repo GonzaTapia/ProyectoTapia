@@ -1,0 +1,58 @@
+/*Style body*/
+.main {
+    display: grid;
+    grid-template-rows: 2;
+    background-color: #ede0d4;
+}
+.texto-nosotros {
+    font-family: 'Broadway-Normal', arial;
+}
+.div-imagen-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40rem;
+    margin: 1rem;
+    padding: 1rem;
+} 
+.mb-3 { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    margin: 10rem;
+    padding: 10rem;
+}
+.imagen-div-main {
+    height: 40rem;
+    width: 40rem;
+    object-fit: cover;
+}
+.animate__animated {
+    display: flex;
+    margin: 40px;
+    padding-left: 80px;
+    border-left: 80px;
+    font-size: 80px;
+    color: #c3a68a ;
+    font-family: fantasy;
+}
+.div-avisos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 25px;
+    font-family: fantasy;
+    text-align: center;
+}
+.texto-nosotros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    margin: 1rem;
+    padding: 1rem;
+}

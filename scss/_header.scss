@@ -1,0 +1,51 @@
+/*Style Header*/
+.nav {
+    background-color: #c3a68a;
+}
+.div-home {
+    display: flex;
+    align-items: center;
+}
+.div-logo {
+    display: flex;
+    align-items: center;  
+}
+.div-nosotros {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.imagen-logo {
+    width: 12rem;
+    height: 12rem;
+}
+.nav-contenedor {
+    display: grid;
+    grid-template-columns: 550px 300px 300px;
+    background-color: #c3a68a;
+}
+.header nav div ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+.header nav div ul li a:hover {
+    transform: scale(2);
+    transition-property: all;
+    transition-duration: 1s;
+    color: #9b2226;
+    font-family: 'Broadway-Normal', arial;
+}
+.nav-bar-home li {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    padding: 3rem;
+}
+.nav-bar-nosotros li {
+    display: flex;
+    align-items: center;
+    margin: 2rem;
+    padding: 3rem;
+}

@@ -1,0 +1,31 @@
+/*Style footer*/
+.footer {
+    height: 15rem;
+    background-color: #c3a68a;
+    display: grid;
+    grid-template-columns: 550px 300px 300px;
+}
+.div-ubicacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 8rem;
+    padding: 3rem;
+}
+.div-logo-footer {
+    display: flex;
+    align-items: center;
+
+}
+.div-sociales {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2rem;
+    padding: 0;
+}
+.footer div a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}

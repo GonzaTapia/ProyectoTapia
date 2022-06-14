@@ -1,0 +1,51 @@
+/*Style productos*/
+.main-productos {
+    display: grid;
+    height: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 5px;
+    background-color: #ede0d4; 
+    font-family: 'Broadway-Normal', arial;
+
+}
+.div-deco {
+    width: 30rem;
+    height: 30rem;
+}
+.div-regaleria {
+    width: 30rem;
+    height: 30rem;
+}
+.div-cocina {
+    width: 30rem;
+    height: 30rem;
+}
+.div-velas {
+    width: 30rem;
+    height: 30rem;
+}
+.div-indumentaria {
+    width: 30rem;
+    height: 30rem;
+}
+.imagen-div-deco {
+    width: 20rem;
+    height: 20rem;
+}
+.imagen-div-regaleria {
+    width: 20rem;
+    height: 20rem;
+}
+.imagen-div-cocina {
+    width: 20rem;
+    height: 20rem;           
+}
+.imagen-div-velas {
+    width: 20rem;
+    height: 20rem;
+}
+.imagen-div-indumentaria {
+    width: 20rem;
+    height: 20rem;
+}
